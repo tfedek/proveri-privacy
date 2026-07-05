@@ -1,57 +1,57 @@
 # Proveri - Politika privatnosti
 
-Poslednje azuriranje: jul 2026
+Poslednje ažuriranje: jul 2026
 
 ## Ukratko
 
-Proveri ne prikuplja, ne salje i ne cuva vase podatke. Sve ostaje na vasem uredjaju.
+Proveri ne prikuplja, ne šalje i ne čuva vaše podatke. Sve ostaje na vašem uređaju.
 
-## Sta Proveri radi
+## Šta Proveri radi
 
-Proveri je Chrome ekstenzija koja analizira sadrzaj emailova u Gmail-u i Outlook-u kako bi vam pomogla da prepoznate potencijalne phishing poruke.
+Proveri je Chrome ekstenzija koja analizira sadržaj emailova u Gmail-u i Outlook-u kako bi vam pomogla da prepoznate potencijalne phishing poruke.
 
-## Kako funkcionise
+## Kako funkcioniše
 
-- Analiza se vrsi lokalno, u vasem browseru
-- Sadrzaj vasih emailova se ne salje na bilo koji server
+- Analiza se vrši lokalno, u vašem browseru
+- Sadržaj vaših emailova se ne šalje na bilo koji server
 - Ne postoji backend, baza podataka niti cloud servis
 
-## Koji podaci se obraduju
+## Koji podaci se obrađuju
 
-Proveri automatski cita tekst i linkove otvorenog emaila radi trenutne procene rizika. Ovo se desava:
+Proveri automatski čita tekst i linkove otvorenog emaila radi trenutne procene rizika. Ovo se dešava:
 
-- Automatski, cim otvorite email (za indikator na ikonici)
+- Automatski, čim otvorite email (za indikator na ikonici)
 - Kad kliknete na ikonicu ekstenzije (za detaljan prikaz u popup-u)
 
-Svi ovi podaci postoje samo u memoriji browsera tokom analize. Rezultat (da li je email bezbedan, sumnjiv ili opasan) se privremeno cuva samo da bi se prikazao indikator na ikonici ekstenzije, i brise se kad zatvorite tab ili otvorite drugi email.
+Svi ovi podaci postoje samo u memoriji browsera tokom analize. Rezultat (da li je email bezbedan, sumnjiv ili opasan) se privremeno čuva samo da bi se prikazao indikator na ikonici ekstenzije, i briše se kad zatvorite tab ili otvorite drugi email.
 
-## Koji podaci se cuvaju
+## Koji podaci se čuvaju
 
 Nikakvi. Proveri ne koristi:
 
 - Lokalni storage
-- Kolacice
+- Kolačiće
 - Baze podataka
 - Eksterne servise
 - Analitiku
-- Pracenje korisnika
+- Praćenje korisnika
 
-## Koji podaci se salju
+## Koji podaci se šalju
 
-Proveri ne salje sadrzaj vasih emailova niti bilo koje licne podatke na eksterne servere. Ekstenzija ne komunicira ni sa jednim udaljanim serverom.
+Proveri ne šalje sadržaj vaših emailova niti bilo koje lične podatke na eksterne servere. Ekstenzija ne komunicira ni sa jednim udaljenim serverom.
 
 ## Dozvole koje ekstenzija koristi
 
 - `activeTab` - dodatni pristup trenutno otvorenom tabu kad kliknete na ikonicu (za popup prikaz)
-- Content script na Gmail/Outlook domenima - automatski cita tekst i linkove otvorenog emaila radi trenutne procene rizika (za ikonicu-indikator), nezavisno od toga da li ste kliknuli na ekstenziju
+- Content script na Gmail/Outlook domenima - automatski čita tekst i linkove otvorenog emaila radi trenutne procene rizika (za ikonicu-indikator), nezavisno od toga da li ste kliknuli na ekstenziju
 
 ## Deca
 
-Proveri ne prikuplja podatke ni od koga, ukljucujuci decu.
+Proveri ne prikuplja podatke ni od koga, uključujući decu.
 
 ## Promene politike
 
-Ako se ova politika promeni, azuriraemo datum na vrhu stranice. Posto ne prikupljamo podatke, promene mogu biti samo u smeru dodavanja novih funkcionalnosti - u tom slucaju cemo jasno navesti sta se promenilo.
+Ako se ova politika promeni, ažuriraćemo datum na vrhu stranice. Pošto ne prikupljamo podatke, promene mogu biti samo u smeru dodavanja novih funkcionalnosti - u tom slučaju ćemo jasno navesti šta se promenilo.
 
 ## Kontakt
 
