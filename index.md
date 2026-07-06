@@ -55,4 +55,4 @@ Ako se ova politika promeni, ažuriraćemo datum na vrhu stranice. Pošto ne pri
 
 ## Kontakt
 
-Za pitanja o privatnosti: proveri@fedek.dev
+Za pitanja o privatnosti: proveriextension@gmail.com
